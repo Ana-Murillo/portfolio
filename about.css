@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  background-color: #211830;
+  color: #eee9bf;
+}
+
+@font-face {
+  font-family: "Home Video";
+  src: url(/fuentes/HomeVideo-BLG6G.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  padding: 1rem;
+}
+
+/** NAVBAR **/
+
+.nav {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee9bf;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  color: #eee9bf;
+}
+
+.nav-title {
+  margin: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid #eee9bf;
+}
+
+.nav-p-description {
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+  text-wrap: pretty;
+}
+
+.nav-btn-name {
+  font-family: "Home Video";
+  font-size: 1.5rem;
+  margin: 0.2rem 0;
+  font-weight: bold;
+}
+
+.nav-btn {
+  display: inline-block;
+  padding: 0.5rem 3rem;
+  border-radius: 15px;
+  border: 1px solid #eee9bf;
+  color: #eee9bf;
+  text-decoration: none;
+  margin-top: 0.3rem;
+}
+
+.nav-btn:hover {
+  background: #4b2fff;
+}
+
+/** IMG **/
+.img-perfil-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2e2844;
+  border: 1px solid;
+  margin: 1.2rem;
+}
+
+.img-perfil {
+  width: 300px;
+  background: #2e2844;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 1.2rem;
+  font-weight: 600;
+}
+
+/** INTRODUCTION **/
+.introduction {
+  text-wrap: pretty;
+  margin: 1.2rem;
+  padding: 15px;
+  font-size: 15px;
+}
+
+/** CV **/
+.cv-btn-info {
+  border: 1px solid;
+  margin: 1.2rem;
+  border-radius: 16px;
+}
+
+.cv-icon {
+  width: 60px;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cv-info {
+  margin: 10px 20px;
+  text-align: end;
+  font-size: 14px;
+  border-top: 1px solid;
+  padding: 10px;
+}
+
+.cv-btn-container:hover .cv-btn-info {
+  background: #4b2fff;
+}
+
+/** SOFTWARE **/
+.software-icon {
+  margin: 1.2rem;
+  width: 70px;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+}
+
+/** **/
+.info-container {
+  border: 1px solid;
+  margin: 1.2rem;
+}
+
+.job-info {
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 16px;
+}
+
+.date {
+  text-align: end;
+  font-size: 16px;
+}
+
+.institution {
+  font-size: 18px;
+}
+
+.role {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.topic {
+  font-size: 25px;
+}
+
+.education-info {
+  margin: 30px;
+  padding: 20px;
+  border-bottom: 1px solid;
+}
+
+.hobbies {
+  list-style: none;
+  margin: 1.2rem;
+  font-size: 15px;
+}
+
+.info-hobbie {
+  border-top: 1px solid;
+  padding: 10px;
+  text-wrap: pretty;
+}
+
+.info-hobbie-border {
+  border-bottom: 1px solid;
+}
+
+/** NAVBAR **/
+
+@media (min-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .navbar > div {
+    flex: 1 1 20%;
+    border-bottom: 1px solid #eee9bf;
+    padding-bottom: 1rem;
+  }
+
+  .nav-title {
+    font-size: 1.2rem;
+  }
+
+  .nav-btn-name {
+    font-size: 2rem;
+  }
+}
+
+/** **/
+
+@media (min-width: 1100px) {
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+  }
+
+  .div1 {
+    grid-row: span 2 / span 2;
+  }
+
+  .div2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .div3 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+
+  .div4 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+  }
+
+  .div5 {
+    grid-row: span 3 / span 3;
+    grid-row-start: 3;
+  }
+
+  .div6 {
+    grid-row: span 3 / span 3;
+    grid-row-start: 3;
+  }
+
+  .div7 {
+    grid-row: span 3 / span 3;
+    grid-row-start: 3;
+  }
+}

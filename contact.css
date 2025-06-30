@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  background-color: #211830;
+  color: #eee9bf;
+}
+
+.header {
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/** NAVBAR **/
+
+.nav {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee9bf;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  color: #eee9bf;
+}
+
+.nav-title {
+  margin: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid #eee9bf;
+}
+
+.nav-p-description {
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+  text-wrap: pretty;
+}
+
+.nav-btn-name {
+  font-size: 1.5rem;
+  margin: 0.2rem 0;
+  font-weight: bold;
+}
+
+.nav-btn {
+  display: inline-block;
+  padding: 0.5rem 3rem;
+  border-radius: 15px;
+  border: 1px solid #eee9bf;
+  color: #eee9bf;
+  text-decoration: none;
+  margin-top: 0.3rem;
+}
+
+.nav-btn:hover {
+  background: #4b2fff;
+}
+
+.nav-btn:hover {
+  background: #4b2fff;
+}
+
+/** TITLES **/
+
+h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin: 1rem;
+  margin-top: 120px;
+  text-wrap: pretty;
+  border-bottom: 1px solid;
+}
+
+h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+.contact-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  text-align: center;
+  margin: 120px 0;
+}
+
+.contact-btn {
+  display: block;
+  color: #eee9bf;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem 0;
+  word-wrap: break-word;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.contact-btn:hover {
+  background: #4b2fff;
+}
+
+/** NAVBAR **/
+
+@media (min-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .navbar > div {
+    flex: 1 1 20%;
+    border-bottom: 1px solid #eee9bf;
+    padding-bottom: 1rem;
+  }
+
+  .nav-title {
+    font-size: 1.2rem;
+  }
+
+  .nav-btn-name {
+    font-size: 2rem;
+  }
+}
+
+/** LIST **/
+
+@media (min-width: 768px) {
+  .contact-list {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 120px;
+    text-transform: uppercase;
+    margin: 1rem;
+    margin-top: 120px;
+
+    border-bottom: 1px solid;
+  }
+}

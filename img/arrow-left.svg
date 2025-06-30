@@ -1,0 +1,16 @@
+<svg width="84" height="156" viewBox="0 0 84 156" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="12" height="12" transform="matrix(-1 0 0 1 84 144)" fill="#FDF5D9"/>
+<rect width="12" height="12" transform="matrix(-1 0 0 1 72 132)" fill="#FDF5D9"/>
+<rect width="12" height="12" transform="matrix(-1 0 0 1 60 120)" fill="#FDF5D9"/>
+<rect width="12" height="12" transform="matrix(-1 0 0 1 48 108)" fill="#FDF5D9"/>
+<rect width="12" height="12" transform="matrix(-1 0 0 1 36 96)" fill="#FDF5D9"/>
+<rect width="12" height="12" transform="matrix(-1 0 0 1 24 84)" fill="#FDF5D9"/>
+<rect width="12" height="12" transform="matrix(-1 0 0 1 12 72)" fill="#FDF5D9"/>
+<rect x="84" y="12" width="12" height="12" transform="rotate(180 84 12)" fill="#FDF5D9"/>
+<rect x="72" y="24" width="12" height="12" transform="rotate(180 72 24)" fill="#FDF5D9"/>
+<rect x="60" y="36" width="12" height="12" transform="rotate(180 60 36)" fill="#FDF5D9"/>
+<rect x="48" y="48" width="12" height="12" transform="rotate(180 48 48)" fill="#FDF5D9"/>
+<rect x="36" y="60" width="12" height="12" transform="rotate(180 36 60)" fill="#FDF5D9"/>
+<rect x="24" y="72" width="12" height="12" transform="rotate(180 24 72)" fill="#FDF5D9"/>
+<rect x="12" y="84" width="12" height="12" transform="rotate(180 12 84)" fill="#FDF5D9"/>
+</svg>

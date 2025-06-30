@@ -213,6 +213,13 @@ a {
   }
 }
 
+@media (min-width: 768px) {
+  .img-perfil {
+    width: 600px;
+    background: #2e2844;
+  }
+}
+
 /** **/
 
 @media (min-width: 1100px) {
